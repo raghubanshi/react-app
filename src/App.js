@@ -6,7 +6,7 @@ function App() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    axios.get('http://18.224.25.80/api/data/')
+    axios.get('http://3.17.178.72/api/data/')
       .then(response => {
         setData(response.data);
         console.log(response/data);
